@@ -1,0 +1,227 @@
+{
+  "Starters": [
+    { 
+      "name": "Burrata di Moderna", 
+      "price": "Creamy | Light", 
+      "desc": "A delicate sphere of burrata presented on a bed of rocket and fresh garden tomatoes, with whispers of balsamic and olive oil. Pairs exquisitely with existential contemplation."
+    }, 
+    {
+        "name": "Garlic Bread of the Gods", 
+        "price": "Buttery | Cheesy", 
+        "desc": "Bread (sometimes homemade) is criss cross cut, and loaded with our homemade roasted garlic herb butter and cheese. Pairs delightfully with marinara, but is also delicious on its own!", 
+        "img": "images/garlic_bread_of_gods.jpeg"
+    }, 
+    {
+        "name": "Curried Brussels Sprouts", 
+        "price": "Spiced | Cooling", 
+        "desc": "Brussels sprouts find themselves seasoned with curry and pan roasted to a tender perfection, served with a meticulously crafted tzatziki sauce for a truly restoring balance.", 
+        "img": "images/curried_brussels.jpeg"
+    }, 
+    {
+        "name": "Hummus with Pita", 
+        "price": "Creamy | Healthy", 
+        "desc": "A homemade creamy hummus is married with a homemade whole wheat pita bread. Is this a starter or a light lunch? That's for you to decide.", 
+        "img": "images/hummus.jpeg"
+    }
+  ],
+  "Pasta": [
+    { 
+      "name": "Lasagna", 
+      "price": "Bounded | Not Repeating", 
+      "desc": "Layers of pasta, sauce, and cheese that never quite settle into a predictable pattern. Each forkful traces a unique path through a delicious, yet ever-evolving, culinary space", 
+      "img": "images/lasagna.jpg"
+    }, 
+    {
+        "name": "Pango's Pesto Pasta", 
+        "price": "Herbacious | Unpredictable", 
+        "desc": "A dazzling peso full of ingredients that remain a closely guarded secrete, much like the recipe for happiness. Accompanied by a side of ’what-ifs’ and a drizzle of self-doubt reduction.", 
+        "img": "images/pangos_pesto_pasta.jpeg"
+    }, 
+    {
+        "name": "Russian Tofu Cutlets", 
+        "price": "Transient | Potential", 
+        "desc": "Hand crafted paparadelle is the bedrock of this dish that includes a creamy vodka sauce, complete with a touch of heat, and tofu cutlets that have been breaded and lightly fried to a golden brown.", 
+        "img": "images/vodka_cutlet.jpeg"
+    }, 
+    {
+        "name": "Spaghetti and Meatlessballs", 
+        "price": "Untraditional | Classico", 
+        "desc": "Almost placed in the American dishes, it was saved by the homemade spaghetti that we make for this dish. Along with our protein packed special meatlessballs.", 
+        "img": "images/spaghetti_meatballs.jpeg"
+    }, 
+    {
+        "name": "Bolognese de Tofu", 
+        "price": "Deep | Tomato", 
+        "desc": "A should be staple sometimes known as ragu, this dish involves topping homemade paparadelle with a slow cooked tomato sauce with ground tofu. This sauce has a rich complex flavor that you are sure to enjoy!",
+        "img": "images/bolognese_pasta.jpeg"
+    }, 
+    {
+        "name": "Pasta Prima Vera", 
+        "price": "Refreshing | Citrus", 
+        "desc": "Hand crafted spaghetti finds itself tossed in a garden of sauteed seasonal veggies, doused with a light citrus wine sauce. Each bite is an invitation to ponder the transient nature of existence and the beauty of natural potential.", 
+        "img": "images/pasta_prima_vera.jpeg"
+    }, 
+    {
+        "name": "Pasta Carbonara", 
+        "price": "Rich | Salty", 
+        "desc": "Sweet, salty and smokey tofu compliments a rich egg sauce with parmesan reggiano and black pepper.", 
+        "img": "images/pasta_carbonara.jpeg"
+    }, 
+    {
+        "name": "Fettuccini Alfredo", 
+        "price": "Creamy | Rich", 
+        "desc": "One of the best dishes every made. Fettucini finds itself tossed in a garlic cream sauce.", 
+        "img": "images/fettuccini_alfredo.jpg"
+    },
+    {
+        "name": "Sweet Potato Gnocchi", 
+        "price": "Savory | Creamy", 
+        "desc": "A sweet potato gnocchin is cloaked in a truffle rosemary cream sauce, a rich pairing that's often complimented with roasted veggies.", 
+        "img": "images/gnocchi_cream.jpeg"
+    }, 
+    {
+        "name": "Pasta al Scottie", 
+        "price": "Simple | Cheesy",
+        "desc": "A supremely simple dish of spaghetti tossed with parmesiano reggiano, pecorino romano, and olive oil. A simpleton as it were, the young lad never shied away from pasta and cheeses.", 
+        "img": "images/scotties_pasta.jpeg" 
+    }
+  ],
+  "'Za": [
+    {
+        "name": "Classic Pan Pizza", 
+        "price": "Cheesy | Crunchy ", 
+        "desc": "The first major success with a near baking experience, this pan pizza has a delightful and crispy crust, rich tomato sauce to compliement, a melty 5 cheese blend to finish, of course!", 
+        "img": "images/pan_pizza.jpeg"
+    }, 
+    {
+        "name": "White Man in Brussels", 
+        "price": "Light | Garlic", 
+        "desc": "A white sauce forms the foundation of this pizza that includes an asiago blend, roasted brussels sprouts, broccoli, and kale. Finished with a balsamic glaze drizzle.", 
+        "img": "images/white_brussels_pizza.jpeg"
+    }, 
+    {
+        "name": "Pepperoni Pizza", 
+        "price": "Spicy | Cheesy", 
+        "desc": "The only thing with meat that you will find in this menu, just the classic college experience of red sauce, cheese, and pepperoni (though we think this one is a bit elevated).", 
+        "img": "images/pepperoni_pizza.jpeg"
+    }, 
+    {
+        "name": "A Rick's Favorite Calzone", 
+        "price": "Pizza | Unique", 
+        "desc": "Some would say a lost art, this different take on pizza altogether is available with your favorite selection of toppings.", 
+        "img": "images/calzone.jpeg" 
+    }
+  ], 
+  "Taste the World": [
+    {
+        "name": "Stir Fry", 
+        "price": "Umami | Spicy", 
+        "desc": "A homemade stir fry sauce envelopes noodles, veggies, and Chinese 5 spice tofu, providing notes of salty and spice amid a subtle sweetness. It's not quite teriyaki, what is it? Not even we can say.", 
+        "img": "images/stir_fry.jpg"
+    }, 
+    {
+        "name": "Paneer Tiki Masala", 
+        "price": "Spices | Creamy", 
+        "desc": "Served with jeera rice and homemade naan. One of the few Indian dishes that we know how to make, so please go easy on us.", 
+        "img": "images/paneer_tiki_masala.jpeg"
+    }, 
+    {
+        "name": "Aloo Gobi", 
+        "price": "Spices | Potato", 
+        "desc": "The classic cauliflower and potato side dish from India. We learned this to compliment our paneer dishes, and boy was it worth it!", 
+        "img": "images/aloo_gobi.jpeg"
+    }, 
+    {
+        "name": "Fried Rice", 
+        "price": "Umami | Sweet/Curry", 
+        "desc": "Dealer's choice of: classic, pineapple, mango, or curried versions.", 
+        "img": "images/fried_rice.jpeg"
+    }, 
+    {
+        "name": "Thai Yellow Curry", 
+        "price": "Spices | Creamy", 
+        "desc": "One of the first dishes I sought to make at a high level.", 
+        "img": "images/yellow_curry.jpeg"
+    }, 
+    {
+        "name": "Sushi", 
+        "price": "Spicy | Raw", 
+        "desc": "Delicately handcrafted sushi rolls with tofu, cucumber, carrots, jalapenos, avocado, and sriracha mayo. Also have an avocado roll, or a spicy avocado roll.", 
+        "img": "images/sushi.jpg"
+    }
+  ],
+  "Taste of America (the good kind)": [
+    {
+        "name": "Chipotle Bowls", 
+        "price": "Spicy | Balanced", 
+        "desc": "Yeah, we aren't pretending this is Mexican, like some lamestream restaurants. Honey cholula tofu sits atop cilantro lime rice, completed with roasted veggies, salsa, cheese, yogurt, and a homemade guac!", 
+        "img": "images/chipotle_bowls.jpeg" 
+    }, 
+    {
+        "name": "Tofu Breakfast Wraps", 
+        "price": "Egg | Spices", 
+        "desc": "Tofu made to immitate egg paired with breakfast potatoes, cheese, and a spicy sauce. Avocado avilable upon request.", 
+        "img": "images/breakfast_usa.jpeg"
+    },
+    {
+        "name": "Tofu Tacos", 
+        "price": "Spicy | Balanced", 
+        "desc": "A taco version of the chipotle bowls (without rice, of course).", 
+        "img": "images/tofu_tacos.jpeg"
+    }, 
+    {
+        "name": "Philly Cheese''steak''", 
+        "price": "Cheesy | Hearty", 
+        "desc": "A vegetarian take on the most valuable thing to come out of Philly. Made with freshly baked bread!", 
+        "img": "images/philly_cheesesteak.jpeg"
+    }, 
+    {
+        "name": "Meatlessball Subs", 
+        "price": "Hearty | Flavorful", 
+        "desc": "A modern tragedy in the eyes of some, but a staple that powered me through an undergrad degree. Made with freshly baked bread!", 
+        "img": "images/meatball_sub.jpeg"
+    }, 
+    {
+        "name": "Mac and Cheese", 
+        "price": "Creamy | Rich", 
+        "desc": "A delightful homemade take on the dish that so many of us grew up on. Hopefully this one avoids bringing up any childhood trauma.", 
+        "img": "images/mac_cheese.jpeg"
+    }
+  ],
+  "Chef's Special Menu": [
+    {
+        "name": "Tofu Deli Style Sandwich", 
+        "price": "Balsamic | Balanced", 
+        "desc": "They said it couldn't be done, yet I did it. The trick? Shaved tofu, uncooked and seasoned makes the base of this sandwich with balsamic glaze, tomatoes, mozzarella, and cucumber. As odd as it sounds, it's worth trying once!" 
+    }, 
+    {
+        "name": "Fried Tofu Sandwich", 
+        "price": "Umami | Crispy", 
+        "desc": "Emboldened by the deli sandwhich, we sought a unique experience of fried tofu with umami from a simple Asian style sauce, and slap this between two slices of homemade bread. If you didn't like the first rendition, this one is better (but who are we to judge?)." 
+    }, 
+    {
+        "name": "Buffalo Tofu Sliders", 
+        "price": "Spicy | Cute", 
+        "desc": "The third entry in our tofu sandwich series, is curated from our Buffalo tofu, cheddar cheese, cucumbers, and vegan mayo. It may not be chicken, but it's pretty damn delicious!" 
+    }
+  ],
+  "Coming Soon..." : [
+    {
+        "name": "Ragu Bianco", 
+        "price": "Hearty | Creamy", 
+        "desc": "White take of the classic Bolognese above.", 
+        "img": "images/ragu_bianco.jpeg"
+    }, 
+    {
+        "name": "Mapo Tofu", 
+        "price": "Spicy | Umami", 
+        "desc": "Coming soon, our (vegetarian) take on a famous Chinese dish."
+    }, 
+    {
+        "name": "Buffalo Mac and Cheese", 
+        "price": "Spicy | Creamy", 
+        "desc": "Tofu prepared with the classic flavors of Buffalo sauce, find themselves atop a delightful mac and cheese.", 
+        "img": "images/buffalo_mac.jpeg"
+    }
+  ]
+}
