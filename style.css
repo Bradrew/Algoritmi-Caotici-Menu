@@ -127,6 +127,9 @@ img {
     margin: 1.5rem; 
     border: 8px solid currentColor; 
     border-radius: 10px; 
+
+    opacity: 0; 
+    transition: opacity 0.8s ease; 
 }
 
 .color-red {

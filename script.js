@@ -4,49 +4,23 @@ fetch('menu.json')
     const menuElement = document.getElementById('menu');
     const description = document.getElementById('restaurant-description');
 
-    // Fade and slide description on scroll 
-    window.addEventListener('scroll', () => {
-        const scrollY = window.scrollY; 
-        const fadeStart = 100; // Adjust for when fade should finish 
-        const fadeEnd = 700; 
-        const fadePoint = 700; 
+    const descriptions = document.querySelectorAll('.color-box');
 
-        let opacity = 1; 
-        if (scrollY > fadeStart) {
-            opacity = 1 - (scrollY - fadeStart) / (fadeEnd - fadeStart); 
-        }
-        opacity = Math.max(opacity, 0); 
-
-        // document.querySelector('.description-wrapper').style.opacity = opacity;
-        description.style.opacity = opacity; 
-
-        // if (scrollY <= fadePoint) {
-        //     // Calculate opacity and slide based on scroll 
-        //     const opacity = 1 - scrollY / fadePoint; 
-        //     const translateY = scrollY / 2; // subtle upward slide 
-        //     description.style.opacity = opacity; 
-        //     description.style.transform = `translateY(-${translateY}px)`; 
-        // } else {
-        //     // Hide completely when past fadepoint 
-        //     description.style.opacity = 0; 
-        //     description.style.transform = `translateY(-50px)`; 
-        // }
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = 1; 
+            } else {
+                entry.target.style.opacity = 0; 
+            }
+        });
+    }, {
+        threshold: 0.4 // 0.2 means 20% of the element is visible before fade in 
     });
 
-    // Menu fade-in using IntersectionObserver 
-    const observer = new IntersectionObserver(
-        entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    menuElement.classList.add('visible'); 
-                }
-            }); 
-        }, 
-        { threshold: 0.1 } // trigger when 10% of menu is visible  
-    );
-
-    observer.observe(menuElement); 
-
+    descriptions.forEach(desc => {
+        observer.observe(desc);
+    });
 
     for (const category in data) {
       // Section header
